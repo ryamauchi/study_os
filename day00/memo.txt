@@ -1,11 +1,11 @@
 # DAY00
-�Q�lURL:http://d.hatena.ne.jp/r_ikeda/20111202/helloos1
+参考URL:http://d.hatena.ne.jp/r_ikeda/20111202/helloos1
 
-�N�����@
+起動方法
 > ..\qemu\qemu-system-i386.exe helloos.img
 
-nasm�ŃA�Z���u�������s����
+nasmでアセンブリを実行する
 > ..\nasm\nasm.exe .\helloos0.nas -o helooos.img
 
-�{�ł�FD���t�H�[�}�b�g���Ă�����OS����������ł���̂Ō���S��0�Ŗ��߂Ă��邪
-QEMU�œ������ꍇ�ׂ͂ɕK�v�Ȃ��B
+本ではFDをフォーマットしてそこにOSを書き込んでいるので後ろを全部0で埋めているが
+QEMUで動かす場合はべつに必要ない。
