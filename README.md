@@ -1,1 +1,1 @@
-"# study_os" 
+# study_os
